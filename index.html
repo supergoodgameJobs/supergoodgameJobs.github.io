@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>2048 PutPro</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="keywords" content="Appload Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="./game_files/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="./game_files/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="./game_files/styles.css" rel="stylesheet">
+<!-- js -->
+<script src="./game_files/jquery.min.js"></script>
+<script src="./game_files/scripts.js"></script>
+<!-- //js -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="./game_files/move-top.js"></script>
+<script type="text/javascript" src="./game_files/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	<body class="cbp-spmenu-push">
+		<!-- header -->
+		<div class="header-bg">
+			<div class="header-top">
+				<div class="container">
+					<div class="head-logo">
+						<a href="">2048 PutPro</a>
+					</div>
+				    <div class="clearfix"> </div>
+			    </div>
+		    </div>
+			<div class="banner-info">
+				<!-- container -->
+				<div class="container">
+					<div class="col-md-5 slid">
+						<!--- banner Slider starts Here --->
+							<script src="./game_files/responsiveslides.min.js"></script>
+						 <script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider4").responsiveSlides({
+								auto: true,
+								pager: true,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						  </script>
+						<!----//End-slider-script---->
+						<div id="top" class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider4">
+								<li id="callbacks1_s0" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out 0s;">
+									<div class="mobile-device">
+										<img src="./game_files/mobile1.png" alt="">
+									</div>
+								</li>
+								<li id="callbacks1_s1" class="callbacks1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 500ms ease-in-out 0s;">
+									<div class="mobile-device">
+										<img src="./game_files/mobile2.png" alt="">
+									</div>
+								</li>
+								<li id="callbacks1_s2" class="" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out 0s;">
+									<div class="mobile-device">
+										<img src="./game_files/mobile3.png" alt="">
+									</div>
+								</li>
+							</ul><a href="http://puzzle2048.com/index.html#" class="callbacks_nav callbacks1_nav prev">Previous</a><a href="http://puzzle2048.com/index.html#" class="callbacks_nav callbacks1_nav next">Next</a><ul class="callbacks_tabs callbacks1_tabs"><li class="callbacks1_s1"><a href="http://puzzle2048.com/index.html#" class="callbacks1_s1">1</a></li><li class="callbacks1_s2 callbacks_here"><a href="http://puzzle2048.com/index.html#" class="callbacks1_s2">2</a></li><li class="callbacks1_s3"><a href="http://puzzle2048.com/index.html#" class="callbacks1_s3">3</a></li></ul>
+						</div>
+					</div>
+					<div class="col-md-7 banner-info-left">
+						<h2><span>2048</span> puzzle is a fun, addictive and a very simple number puzzle game. You join the numbers and get to the 2048 tile! 
+						Featured in <a href="https://appoftheday.downloadastro.com/app/2048/">App of the Day.</a></h2>
+						<div class="banner-buttons">
+							<div class="banner-button">
+								<a href="https://play.google.com/store/apps/details?id=com.androbaby.game2048"><img src="./game_files/1.png" alt=""></a>
+							</div>
+							<div class="banner-button green-button">
+								<a href="https://itunes.apple.com/app/2048-puzzle-game/id1244329629"><img src="./game_files/3.png" alt=""></a>
+							</div>
+							<div class="banner-button">
+								<a href="https://www.amazon.com/androbaby-2048/dp/B01M35PTRW/"><img src="./game_files/2.png" alt=""></a>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!-- //container -->
+			</div>
+		</div>
+		<!-- //header -->
+		<!-- footer -->
+		<div class="footer">
+			<!-- container -->
+			<div class="container">
+				<div class="copyright">
+					<p> © 2015 Androbaby. All rights reserved | Support: <a href="mailto:androbabyid@gmail.com">androbabyid@gmail.com</a></p>
+					<p> Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+				</div>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- //footer -->
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+									<a href="http://puzzle2048.com/index.html#" id="toTop" style="display: none;"><span id="toTopHover"></span> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!-- content-Get-in-touch -->
+	
+<a href="http://puzzle2048.com/index.html#" id="toTop">To Top</a></body></html>
